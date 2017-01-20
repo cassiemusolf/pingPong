@@ -1,5 +1,20 @@
 .jumbotron {
   margin-top: 50px;
+  border: black solid;
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+}
+
+h2 {
+  text-align: center;
+  font-family: monospace;
+}
+
+body {
+  background-color: #b4edd4;
 }
 
 button {
@@ -7,7 +22,8 @@ button {
 }
 
 .results {
-  margin-top: 20px;
+  margin-top: 10px;
   white-space: pre;
   font-size: 20px;
+  font-family: monospace;
 }
