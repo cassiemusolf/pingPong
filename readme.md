@@ -1,6 +1,6 @@
 # _Specifications:_
 
-### _1: Receive a number from the user.
+### 1: Receive a number from the user.
     Input: 2
 
 ### 2: Return the user's number back to them.
@@ -18,43 +18,36 @@
 ### 6: Replace and return pong with numbers divisible by 5.
     Input: 5 Output: [1,2,ping,4,pong]
 
-### _7: Replace and return ping-pong with numbers divisible by 15.
+### 7: Replace and return ping-pong with numbers divisible by 15.
     Input: 15 Output: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,ping-pong]
 
-    # _Ping-Pong_
+# Ping-Pong
 
-    #### _Webpage to play a ping-pong game, January 20, 2017_
+#### Webpage to play a ping-pong game, January 20, 2017
 
-    #### By _**Cassie Musolf**_
+#### By Cassie Musolf
 
-    ## Description
+## Description
 
-    _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This ping-pong web application is a simple game that takes a number from the user's input and uses that number to count up from 1. It then finds any numbers, in the list, that are divisible by 3 and replaces them with "ping", it does the same for numbers divisible by 5 and replaces those with "pong" and, again, with numbers divisible by 15 and replaces those with "ping-pong"._
 
-    ## Setup/Installation Requirements
+## Setup/Installation Requirements
 
-    * _This is a great place_
-    * _to list setup instructions_
-    * _in a simple_
-    * _easy-to-understand_
-    * _format_
+* _Connect to internet_
+* _Open web browser_
+* _Enter a number_
+* _Submit your input with the button_
 
-    _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+## Support and contact details
 
-    ## Known Bugs
+_If you have any questions or issues with this webpage or have any ideas or input on my code, please, feel free to contact me via email: cassiemusolf@gmail.com_
 
-    _{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+## Technologies Used
 
-    ## Support and contact details
+_HTML</br>CSS</br>Bootstrap</br>Javascript</br><JQuery</br>_
 
-    _{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+### License
 
-    ## Technologies Used
+*This web application is licensed under the MIT license.*
 
-    _{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
-
-    ### License
-
-    *{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-    Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2017 **_Cassie Musolf_**
