@@ -1,10 +1,13 @@
 .jumbotron {
-  margin-top: 50px;
+  margin-top: 30px;
   border: black dashed;
 }
 
 .container {
   border: black solid;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 50px;
 }
 
 h1 {
@@ -23,6 +26,10 @@ body {
 }
 
 button {
+  margin-top: 20px;
+}
+
+input {
   margin-top: 20px;
 }
 
