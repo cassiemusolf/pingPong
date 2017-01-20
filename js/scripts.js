@@ -1,8 +1,13 @@
 var pingPongGame = function(userNumber) {
 
+var emptyArray = [];
+var newNumber = 0;
+
   if (userNumber >= 1) {
-    return userNumber;
-  } else if (userNumber < 1) {
+    for (index= 0; index < userNumber.length; userNumber-=1);
+      return userNumber;
+    }
+    else if (userNumber < 1) {
     alert ("Enter a number 1 or greater!");
   }
 }
