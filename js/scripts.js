@@ -2,6 +2,8 @@ var pingPongGame = function(userNumber) {
 
   if (userNumber >= 1) {
     return userNumber;
+  } else if (userNumber < 1) {
+    alert ("Enter a number 1 or greater!");
   }
 }
 
