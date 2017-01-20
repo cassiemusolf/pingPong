@@ -1,24 +1,24 @@
 # _Specifications:_
 
-### 1: Receive a number from the user.
+### _1: Receive a number from the user._
     Input: 2
 
-### 2: Return the user's number back to them.
+### _2: Return the user's number back to them._
     Input: 2 Output: [2]
 
-### 3: Return 2 numbers back to the user, counting up from 1 to theirs.
+### _3: Return 2 numbers back to the user, counting up from 1 to theirs._
     Input: 2 Output: [1,2]
 
-### 4: Return a string of numbers from 1 to the user's number.
+### _4: Return a string of numbers from 1 to the user's number._
     Input: 10 Output: [1,2,3,4,5,6,7,8,9,10]
 
-### 5: Replace and return ping with numbers divisible by 3.
+### _5: Replace and return ping with numbers divisible by 3._
     Input: 3 Output: [1,2,ping]
 
-### 6: Replace and return pong with numbers divisible by 5.
+### _6: Replace and return pong with numbers divisible by 5._
     Input: 5 Output: [1,2,ping,4,pong]
 
-### 7: Replace and return ping-pong with numbers divisible by 15.
+### _7: Replace and return ping-pong with numbers divisible by 15._
     Input: 15 Output: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,ping-pong]
 
 # Ping-Pong
