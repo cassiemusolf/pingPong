@@ -6,7 +6,7 @@ var pingPongGame = function(userNumber) {
     alert ("Enter a number 1 or greater!");
   }
   if (userNumber >= 1) {
-    for (index=userNumber; index>0; index--) {
+    for (index=1; index<userNumber; index++) {
       if (index % 15 === 0) {
         emptyArray.push("ping-pong");
       } else if (index % 5 === 0) {
@@ -21,7 +21,6 @@ var pingPongGame = function(userNumber) {
     } return arrayToString;
   }
 }
-
 
 $(document).ready(function() {
   $("form#pingPong").submit(function(pingPong) {

@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Ping Pong</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
+<head>
+  <meta charset="utf-8">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Ping Pong</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
       <h1>Ping-Pong!</h1>
       <h2>Please enter a number below to play the game!</h2>
-        <ul>
-          <li>Enter a number greater than 1.</li>
-          <li>The game will count down from your number to 1!</li>
-          <li>If a number in the list is divisible by 3, 5 or 15 then it will be replaced with a <strong>ping, pong, or ping-ping!!!</strong></li>
-        </ul>
-      </div>
-      <form id = "pingPong">
+      <ul>
+        <li>Enter a number greater than 1.</li>
+        <li>The game will count down from your number to 1!</li>
+        <li>If a number in the list is divisible by 3, 5 or 15 then it will be replaced with a <strong>ping, pong, or ping-ping!!!</strong></li>
+      </ul>
+    </div>
+    <form id = "pingPong">
       <div class="form-group">
         <label for="number">PLEASE ENTER A NUMBER HERE!</label>
         <input type="text" class="form-control" id="number" placeholder="Enter Your Number">
@@ -28,10 +28,10 @@
       <input type="reset" class="btn btn-primary" onClick="window.location.reload()" value="Play Again!">
     </form>
     <ul class="results">
-     <p id = "results"></p>
-   </ul>
-    </div>
-    </div>
+      <p id = "results"></p>
+    </ul>
+  </div>
+</div>
 
-  </body>
+</body>
 </html>
