@@ -8,20 +8,23 @@ var newArray = [];
     alert ("Enter a number 1 or greater!");
   }
     if (userNumber >= 1) {
-      for (index=userNumber; index>0; index--) {
-      emptyArray.push(index);
+    for (index=userNumber; index>0; index--) {
+    if (index % 15 === 0) {
+    console.log("ping-pong");
+  } else if (index % 5 === 0) {
+    console.log("pong");
+  } else if (index % 3 === 0) {
+    console.log("ping");
+  } else {
+    console.log(index);
   }
-  for (index=userNumber; index>0; index--) {
-    if (index % 3 === 0)
-    emptyArray.push("ping");
-  } if (index % 5 === 0) {
-      emptyArray.push("pong");
-    }
-    return emptyArray;
   }
 }
+}
 
-
+//     for (index=userNumber; index>0; index--) {
+//     emptyArray.push(index);
+// }
 
 
 
