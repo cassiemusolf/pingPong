@@ -16,7 +16,8 @@ var pingPongGame = function(userNumber) {
       } else {
         emptyArray.push(index);
       }
-      var arrayToString = emptyArray.join(" ");
+
+      var arrayToString = emptyArray.join("\n \n");
     } return arrayToString;
   }
 }

@@ -1,3 +1,13 @@
 .jumbotron {
   margin-top: 50px;
 }
+
+button {
+  margin-top: 20px;
+}
+
+.results {
+  margin-top: 20px;
+  white-space: pre;
+  font-size: 20px;
+}
